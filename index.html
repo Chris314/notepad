@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Tests Markdown</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="metroUI/css/metro.min.css" />
+    <link rel="stylesheet" href="metroUI/css/metro-icons.min.css" />
+</head>
+
+<body>
+    <div class="notepad">
+        <div class="my-toolbar">
+            <div class="input-control file" data-role="input">
+                <input type="file" allow="images/*" id="articleHeader">
+                <button class="button"><span class="mif-folder"></span></button>
+            </div>
+            <div class="input-control text required" data-role="input">
+                <input type="text" id="titre" />
+            </div>
+            <input type="button" id="toggle_editor" value="Editeur">
+        </div>
+        <div class="work-area">
+            <div id="pad_area">
+                <textarea class="pad" id="pad"></textarea>
+            </div>
+            <div class="result">
+                <div id="result_header" class="no-background">
+                    <div id="result_title"></div>
+                </div>
+                <div id="markdown">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./scripts/jquery.min.js"></script>
+    <script src="./scripts/showdown.min.js"></script>
+    <script src="./scripts/metro.min.js"></script>
+    <script src="./scripts/deployement.js"></script>
+</body>
+
+</html>

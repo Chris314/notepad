@@ -1,0 +1,101 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.notepad {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.my-toolbar {
+    width: 100%;
+    background: repeating-linear-gradient( -45deg, #222, #222 5px, #444 5px, #444 10px);
+    padding: 0;
+    padding-left: 1%;
+}
+
+.work-area {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.g5 {
+    width: 5%!important;
+}
+
+.g10 {
+    width: 10%!important;
+}
+
+.g20 {
+    width: 20%!important;
+}
+
+.g50 {
+    width: 50%!important;
+}
+
+.g60 {
+    width: 60%!important;
+}
+
+.g100 {
+    width: 100%!important;
+}
+
+.result {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #aaa;
+}
+
+.pad {
+    width: 100%;
+    height: 100%;
+    font-family: Courier New, Courier, monospace;
+    border: none;
+    overflow: auto;
+    outline: none;
+    resize: none;
+    margin: 0;
+    padding: 0;
+}
+
+.no-background {
+    background: repeating-linear-gradient( -45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+}
+
+#result_header {
+    height: 10em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#result_title {
+    background: rgba(255, 255, 255, 0.5);
+    width: 90%;
+    height: 100%;
+    line-height: 100%;
+    font-size: 4em;
+    font-weight: bolder;
+    color: #333;
+    vertical-align: middle;
+}
+
+#markdown {
+    padding: 0.5em;
+    height: 100%;
+    overflow-y: scroll;
+}

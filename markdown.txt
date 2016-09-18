@@ -1,0 +1,27 @@
+Titre important
+===============
+
+Sous titre
+----------
+
+Lorem ipsum dolor sit amet, **consectetur adipiscing** elit. Nunc eget ligula nibh. Nulla eget ornare dolor, ut dapibus ex. 
+
+Nunc eget nisi nunc. **_Quisque suscipit_**, magna vel condimentum fermentum, lacus augue tempus diam, ut cursus mi enim eget dolor. Etiam id porta elit. Fusce sit amet gravida velit.
+
+Nunc ~~scelerisque~~ urna est. *Sed lectus mi*, molestie at feugiat a, venenatis sit amet leo. Nunc leo mauris, consequat a quam quis, accumsan congue ante. Nullam varius et dui vel aliquam. 
+
+![Image](photos/picture.png =200x*)
+
+| header1  | header 2  | header 3  |
+|:---------|:----------|:---_------|
+| elt1     | elt2      | elt 3     |
+
+Liste
+1. Chocolat
+2. Caramel
+
+- Elt 1
+-Elt 2
+
+- [ ]This task is not done
+- [X]This task is done
